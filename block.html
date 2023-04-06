@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-style: Verdana, Geneva, sans-serif;
+            font-size: large;
+        }
+
+        section {
+            background-color: rgb(169, 165, 165);
+            display: flex;
+            padding: 20px;
+            text-align: center;
+            justify-content: center;
+        }
+
+        .container {
+            background-color: bisque;
+            display: flex;
+            width: 1000px;
+            height: 500px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: flex-end;
+        }
+
+        .contain {
+            background-color: aquamarine;
+            display: flex;
+            width: 450px;
+            height: 500px;
+            flex-direction: column;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        p {
+            background-color: rgb(227, 202, 44);
+            display: flex;
+            width: 480px;
+            height: 70px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: 10px;
+            text-align: center;
+            justify-content: space-around;
+        }
+
+        .container p:last-child {
+            width: 100%;
+            align-self: center;
+        }
+
+        .first {
+            background-color: bisque;
+            width: 100%;
+            align-self: flex-start;
+        }
+
+        .footer {
+            background-color: rgb(169, 165, 165);
+            display: flex;
+            width: 1420px;
+            height: 80px;
+            padding: 17px;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .foot {
+            background-color: white;
+            display: flex;
+            width: 350px;
+            height: 80px;
+            justify-content: space-around;
+        }
+
+        div {
+            display: flex;
+            width: 1900px;
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <section>
+            <h1>
+                [Шапка страницы]
+            </h1>
+        </section>
+    </header>
+    <main>
+        <div>
+            <div class="container">
+                <p class="first">[Основная часть]</p>
+                <p>[Еще 1]</p>
+                <p>[Еще 2]</p>
+                <p>[Еще 3]</p>
+            </div>
+            <div class="contain">
+                [Боковая область]
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <span class="foot">[Секция футера 1]</span>
+            <span class="foot">[Секция футера 2]</span>
+            <span class="foot">[Секция футера 3]</span>
+            <span class="foot">[Секция футера 4]</span>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

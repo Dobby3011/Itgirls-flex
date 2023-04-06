@@ -1,0 +1,123 @@
+        .top {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        a {
+            width: 200px;
+            height: 19px;
+            padding: 10px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+        }
+
+        .palm {
+            width: 150px;
+            height: 50px;
+        }
+
+        #tekst {
+            position: relative;
+        }
+
+        .tekst {
+            position: absolute;
+            top: 0%;
+            left: 550px;
+            color: white;
+            width: 350px;
+            padding: 10px;
+            text-align: center;
+            font: italic 28px/38px Helvetica, Sans-Serif;
+        }
+
+        .tekst1 {
+            background-color: rgba(142, 199, 207, 0.5);
+            position: absolute;
+            top: 30%;
+            left: 400px;
+            color: white;
+            width: 800px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            font: bold 24px/34px Helvetica, Sans-Serif;
+        }
+
+        .tekst2 {
+            background-color: rgba(142, 199, 207, 0.5);
+            position: absolute;
+            top: 40%;
+            left: 400px;
+            color: white;
+            width: 800px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            font: bold 24px/34px Helvetica, Sans-Serif;
+        }
+
+        h2 {
+            width: 100%;
+            padding: 10px;
+            margin: 5px;
+            text-align: center;
+            font-size: xx-large;
+        }
+
+        article {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .sea1,
+        .knopka,
+        .sea2 {
+            background-color: rgb(149, 223, 216);
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            font: 24px/34px Helvetica, Sans-Serif;
+        }
+
+        .knopka {
+            background-color: rgba(169, 226, 235, 0.7);
+            width: 200px;
+            font: 20px/30px Helvetica, Sans-Serif;
+        }
+
+        .sea1 {
+            width: 600px;
+        }
+
+        .sea2 {
+            border: 1px solid black;
+            background-color: rgb(215, 235, 242);
+            width: 400px;
+            text-align: center;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: row;
+            margin: 10px;
+        }
+
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            width: 50%;
+        }
+
+        .container2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            width: 50%;
+            margin: 30px;
+        }
